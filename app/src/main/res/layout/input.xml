@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nachoz12341.playkeyboard.PlayKeyboardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/play_keyboard_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@android:color/darker_gray"
+    android:keyBackground="@drawable/key_background"
+    android:keyTextSize="20sp"
+    android:keyTextColor="@android:color/black"
+    android:shadowColor="#00000000"
+    android:shadowRadius="0" />

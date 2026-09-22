@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Play Keyboard</string>
+    <string name="ime_name">Play Keyboard</string>
+    <string name="subtype_en_us">English (US)</string>
+
+    <string name="settings_instructions">This is a D-pad-navigable keyboard for devices with a hardware gamepad, such as the Xperia Play.\n\nTo use it:\n1. Tap \"Open Input Method Settings\" below\n2. Enable \"Play Keyboard\"\n3. Switch to it from any text field\n\nOnce active, use the D-pad to move the highlight between keys and X (or the DPAD centre press) to select a key. O deletes, Triangle switches between letters and symbols, and Square toggles shift.</string>
+    <string name="open_input_method_settings">Open Input Method Settings</string>
+</resources>

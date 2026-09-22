@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:keyHeight="52dp"
+    android:horizontalGap="0px"
+    android:verticalGap="2px">
+
+    <Row>
+        <Key android:codes="126" android:keyLabel="~" android:keyEdgeFlags="left" />
+        <Key android:codes="96" android:keyLabel="`" />
+        <Key android:codes="124" android:keyLabel="|" />
+        <Key android:codes="183" android:keyLabel="&#183;" />
+        <Key android:codes="8730" android:keyLabel="&#8730;" />
+        <Key android:codes="960" android:keyLabel="&#960;" />
+        <Key android:codes="247" android:keyLabel="&#247;" />
+        <Key android:codes="215" android:keyLabel="&#215;" />
+        <Key android:codes="163" android:keyLabel="&#163;" />
+        <Key android:codes="162" android:keyLabel="&#162;" android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row>
+        <Key android:codes="8364" android:keyLabel="&#8364;" android:keyEdgeFlags="left" />
+        <Key android:codes="165" android:keyLabel="&#165;" />
+        <Key android:codes="94" android:keyLabel="^" />
+        <Key android:codes="176" android:keyLabel="&#176;" />
+        <Key android:codes="61" android:keyLabel="=" />
+        <Key android:codes="95" android:keyLabel="_" />
+        <Key android:codes="123" android:keyLabel="{" />
+        <Key android:codes="125" android:keyLabel="}" />
+        <Key android:codes="91" android:keyLabel="[" android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row>
+        <Key android:codes="-1" android:keyWidth="15%p" android:keyLabel="\?123"
+            android:keyEdgeFlags="left" android:isModifier="true" android:isSticky="true" />
+        <Key android:codes="92" android:keyLabel="&#92;" />
+        <Key android:codes="169" android:keyLabel="&#169;" />
+        <Key android:codes="174" android:keyLabel="&#174;" />
+        <Key android:codes="8482" android:keyLabel="&#8482;" />
+        <Key android:codes="167" android:keyLabel="&#167;" />
+        <Key android:codes="93" android:keyLabel="]" />
+        <Key android:codes="-5" android:keyWidth="15%p" android:keyLabel="Del"
+            android:keyEdgeFlags="right" android:isRepeatable="true" />
+    </Row>
+
+    <Row>
+        <Key android:codes="-2" android:keyWidth="20%p" android:keyLabel="ABC"
+            android:keyEdgeFlags="left" />
+        <Key android:codes="44" android:keyWidth="10%p" android:keyLabel="," />
+        <Key android:codes="32" android:keyWidth="40%p" android:keyLabel=""
+            android:isRepeatable="true" />
+        <Key android:codes="46" android:keyWidth="10%p" android:keyLabel="." />
+        <Key android:codes="-4" android:keyWidth="20%p" android:keyLabel="Enter"
+            android:keyEdgeFlags="right" />
+    </Row>
+
+</Keyboard>
